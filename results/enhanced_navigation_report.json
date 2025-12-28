@@ -1,0 +1,1606 @@
+[
+  {
+    "image": "000000000724.jpg",
+    "current_speed": 30,
+    "detections": [
+      {
+        "class": "stop sign",
+        "confidence": 0.9661766886711121,
+        "bbox": [
+          119.40625,
+          71.1540298461914,
+          254.6345977783203,
+          225.77796936035156
+        ],
+        "distance": 14.713116645812988,
+        "lateral_position": -0.11510009318590164,
+        "priority": 10,
+        "object_type": "signal",
+        "urgency_score": 93.29082454543465,
+        "safety_score": 13.311270087795835
+      },
+      {
+        "class": "stop sign",
+        "confidence": 0.3456468880176544,
+        "bbox": [
+          201.55677795410156,
+          260.0354309082031,
+          223.29054260253906,
+          287.2174377441406
+        ],
+        "distance": 64.38082122802734,
+        "lateral_position": 5.981678009033203,
+        "priority": 10,
+        "object_type": "signal",
+        "urgency_score": 60.53791230333546,
+        "safety_score": 52.49999999999996
+      }
+    ],
+    "instruction": {
+      "primary_instruction": "\ud83d\uded1 PREPARE TO STOP - STOP SIGN at 14.7m",
+      "action": "PREPARE_STOP",
+      "urgency": "HIGH",
+      "reason": "stop sign at 14.7m",
+      "details": {
+        "center_clear": false,
+        "center_distance": 14.713116645812988
+      },
+      "turn_opportunities": {
+        "left": "\u2713 LEFT TURN SAFE - Clear path, nearest object at infm",
+        "right": "\u2713 RIGHT TURN SAFE - Clear path, nearest object at infm"
+      },
+      "warnings": [],
+      "immediate_threats": []
+    },
+    "total_objects": 2
+  },
+  {
+    "image": "000000001268.jpg",
+    "current_speed": 40,
+    "detections": [
+      {
+        "class": "person",
+        "confidence": 0.8834719061851501,
+        "bbox": [
+          502.34893798828125,
+          99.7301025390625,
+          639.8251342773438,
+          423.44049072265625
+        ],
+        "distance": 5.0,
+        "lateral_position": 35.309112548828125,
+        "priority": 10,
+        "object_type": "pedestrian",
+        "urgency_score": 93.59292902093027,
+        "safety_score": 12.671102034425415
+      },
+      {
+        "class": "person",
+        "confidence": 0.881009042263031,
+        "bbox": [
+          401.62896728515625,
+          205.1664276123047,
+          468.16497802734375,
+          294.94903564453125
+        ],
+        "distance": 13.254237174987793,
+        "lateral_position": 16.157386779785156,
+        "priority": 10,
+        "object_type": "pedestrian",
+        "urgency_score": 92.92745182486175,
+        "safety_score": 14.085499139487887
+      },
+      {
+        "class": "person",
+        "confidence": 0.7794967889785767,
+        "bbox": [
+          0.024089813232421875,
+          210.69918823242188,
+          27.03820037841797,
+          284.2126159667969
+        ],
+        "distance": 16.187519073486328,
+        "lateral_position": -43.09718322753906,
+        "priority": 10,
+        "object_type": "pedestrian",
+        "urgency_score": 0,
+        "safety_score": 100
+      },
+      {
+        "class": "person",
+        "confidence": 0.7654110193252563,
+        "bbox": [
+          22.3947696685791,
+          213.71365356445312,
+          76.02762603759766,
+          285.2152404785156
+        ],
+        "distance": 16.642988204956055,
+        "lateral_position": -38.07967758178711,
+        "priority": 10,
+        "object_type": "pedestrian",
+        "urgency_score": 0,
+        "safety_score": 100
+      }
+    ],
+    "instruction": {
+      "primary_instruction": "\u27a1\ufe0f CONTINUE STRAIGHT - Path clear",
+      "action": "PROCEED",
+      "urgency": "NONE",
+      "reason": "No obstacles in direct path",
+      "details": {
+        "center_clear": true,
+        "center_distance": Infinity,
+        "left_clear": true,
+        "left_distance": 16.187519073486328,
+        "right_clear": true,
+        "right_distance": 5.0,
+        "total_objects": 4,
+        "high_priority_objects": 4,
+        "current_speed": 40
+      },
+      "turn_opportunities": {
+        "left": "\u26a0\ufe0f LEFT TURN POSSIBLE - Tight clearance (16m)",
+        "right": "\u2717 RIGHT TURN UNSAFE - person at 5m"
+      },
+      "warnings": [
+        "person detected in left zone at 16m",
+        "person detected in left zone at 17m",
+        "person detected in right zone at 5m",
+        "person detected in right zone at 13m"
+      ],
+      "immediate_threats": []
+    },
+    "total_objects": 4
+  },
+  {
+    "image": "000000001584.jpg",
+    "current_speed": 50,
+    "detections": [
+      {
+        "class": "bus",
+        "confidence": 0.9071260094642639,
+        "bbox": [
+          125.06581115722656,
+          86.36785888671875,
+          521.7994995117188,
+          530.1282958984375
+        ],
+        "distance": 5.047768592834473,
+        "lateral_position": 2.563624620437622,
+        "priority": 8,
+        "object_type": "vehicle",
+        "urgency_score": 93.33647798742138,
+        "safety_score": 13.214285714285717
+      },
+      {
+        "class": "bus",
+        "confidence": 0.8689393997192383,
+        "bbox": [
+          504.63336181640625,
+          316.4763488769531,
+          568.6409301757812,
+          383.8166198730469
+        ],
+        "distance": 33.26390075683594,
+        "lateral_position": 33.91722869873047,
+        "priority": 8,
+        "object_type": "vehicle",
+        "urgency_score": 60.43035672824287,
+        "safety_score": 54.569643271757016
+      },
+      {
+        "class": "bus",
+        "confidence": 0.8679847121238708,
+        "bbox": [
+          568.5599365234375,
+          318.6180114746094,
+          611.6703491210938,
+          403.2523193359375
+        ],
+        "distance": 26.466808319091797,
+        "lateral_position": 41.78163528442383,
+        "priority": 8,
+        "object_type": "vehicle",
+        "urgency_score": 75.0,
+        "safety_score": 40.0
+      },
+      {
+        "class": "person",
+        "confidence": 0.723703145980835,
+        "bbox": [
+          75.94644927978516,
+          376.314697265625,
+          96.56472778320312,
+          430.6861267089844
+        ],
+        "distance": 17.509197235107422,
+        "lateral_position": -32.31535720825195,
+        "priority": 10,
+        "object_type": "pedestrian",
+        "urgency_score": 74.99999999999997,
+        "safety_score": 39.999999999999986
+      },
+      {
+        "class": "person",
+        "confidence": 0.6569921374320984,
+        "bbox": [
+          114.12262725830078,
+          380.9658508300781,
+          128.06982421875,
+          431.10162353515625
+        ],
+        "distance": 18.988439559936523,
+        "lateral_position": -27.191730499267578,
+        "priority": 10,
+        "object_type": "pedestrian",
+        "urgency_score": 0,
+        "safety_score": 100
+      },
+      {
+        "class": "person",
+        "confidence": 0.5752270221710205,
+        "bbox": [
+          100.19823455810547,
+          397.1441345214844,
+          115.73139953613281,
+          430.5289611816406
+        ],
+        "distance": 28.515949249267578,
+        "lateral_position": -29.122821807861328,
+        "priority": 10,
+        "object_type": "pedestrian",
+        "urgency_score": 0,
+        "safety_score": 100
+      },
+      {
+        "class": "person",
+        "confidence": 0.41891124844551086,
+        "bbox": [
+          178.05955505371094,
+          167.6151885986328,
+          204.2012481689453,
+          192.12989807128906
+        ],
+        "distance": 63.1049690246582,
+        "lateral_position": -16.892587661743164,
+        "priority": 10,
+        "object_type": "pedestrian",
+        "urgency_score": 58.22143854238475,
+        "safety_score": 46.208454319068004
+      }
+    ],
+    "instruction": {
+      "primary_instruction": "\u26a0\ufe0f STOP - BUS at 5.0m ahead",
+      "action": "EMERGENCY_STOP",
+      "urgency": "CRITICAL",
+      "reason": "bus at 5.0m (stop threshold: 10m)",
+      "details": {
+        "center_clear": false,
+        "obstacle_type": "bus",
+        "obstacle_distance": 5.047768592834473,
+        "stop_threshold": 10
+      },
+      "turn_opportunities": {
+        "left": "\u2717 LEFT blocked",
+        "right": "\u2713 RIGHT available - Clear for 26m"
+      },
+      "warnings": [],
+      "immediate_threats": [
+        {
+          "class": "bus",
+          "confidence": 0.9071260094642639,
+          "bbox": [
+            125.06581115722656,
+            86.36785888671875,
+            521.7994995117188,
+            530.1282958984375
+          ],
+          "distance": 5.047768592834473,
+          "lateral_position": 2.563624620437622,
+          "priority": 8,
+          "object_type": "vehicle",
+          "urgency_score": 93.33647798742138,
+          "safety_score": 13.214285714285717
+        }
+      ]
+    },
+    "total_objects": 7
+  },
+  {
+    "image": "000000002006.jpg",
+    "current_speed": 25,
+    "detections": [
+      {
+        "class": "bus",
+        "confidence": 0.9198416471481323,
+        "bbox": [
+          43.92156982421875,
+          82.38510131835938,
+          591.6083984375,
+          424.511962890625
+        ],
+        "distance": 6.547278881072998,
+        "lateral_position": -0.3142991065979004,
+        "priority": 8,
+        "object_type": "vehicle",
+        "urgency_score": 93.33647798742138,
+        "safety_score": 13.214285714285717
+      },
+      {
+        "class": "person",
+        "confidence": 0.7951747179031372,
+        "bbox": [
+          6.080436706542969,
+          250.79443359375,
+          49.94229507446289,
+          361.4376220703125
+        ],
+        "distance": 8.604235649108887,
+        "lateral_position": -41.0609016418457,
+        "priority": 10,
+        "object_type": "pedestrian",
+        "urgency_score": 93.54605261362772,
+        "safety_score": 12.770159477208963
+      },
+      {
+        "class": "person",
+        "confidence": 0.6996941566467285,
+        "bbox": [
+          315.6824951171875,
+          189.5029754638672,
+          379.057861328125,
+          249.60194396972656
+        ],
+        "distance": 19.80067253112793,
+        "lateral_position": 3.848931312561035,
+        "priority": 10,
+        "object_type": "pedestrian",
+        "urgency_score": 0,
+        "safety_score": 100
+      }
+    ],
+    "instruction": {
+      "primary_instruction": "\u26a0\ufe0f STOP - BUS at 6.5m ahead",
+      "action": "EMERGENCY_STOP",
+      "urgency": "CRITICAL",
+      "reason": "bus at 6.5m (stop threshold: 10m)",
+      "details": {
+        "center_clear": false,
+        "obstacle_type": "bus",
+        "obstacle_distance": 6.547278881072998,
+        "stop_threshold": 10
+      },
+      "turn_opportunities": {
+        "left": "\u2717 LEFT blocked",
+        "right": "\u2713 RIGHT available - Clear for infm"
+      },
+      "warnings": [],
+      "immediate_threats": [
+        {
+          "class": "bus",
+          "confidence": 0.9198416471481323,
+          "bbox": [
+            43.92156982421875,
+            82.38510131835938,
+            591.6083984375,
+            424.511962890625
+          ],
+          "distance": 6.547278881072998,
+          "lateral_position": -0.3142991065979004,
+          "priority": 8,
+          "object_type": "vehicle",
+          "urgency_score": 93.33647798742138,
+          "safety_score": 13.214285714285717
+        }
+      ]
+    },
+    "total_objects": 3
+  },
+  {
+    "image": "10277303256_a6a11a9d4b_z.jpg",
+    "current_speed": 35,
+    "detections": [
+      {
+        "class": "car",
+        "confidence": 0.8757573962211609,
+        "bbox": [
+          517.4761962890625,
+          119.76504516601562,
+          639.6234130859375,
+          245.08892822265625
+        ],
+        "distance": 8.378291130065918,
+        "lateral_position": 36.35856628417969,
+        "priority": 8,
+        "object_type": "vehicle",
+        "urgency_score": 0,
+        "safety_score": 100
+      },
+      {
+        "class": "person",
+        "confidence": 0.866854190826416,
+        "bbox": [
+          424.35797119140625,
+          139.75836181640625,
+          545.1093139648438,
+          354.3892822265625
+        ],
+        "distance": 5.0,
+        "lateral_position": 23.165668487548828,
+        "priority": 10,
+        "object_type": "pedestrian",
+        "urgency_score": 93.8383054003581,
+        "safety_score": 12.154761134464065
+      },
+      {
+        "class": "person",
+        "confidence": 0.8420662879943848,
+        "bbox": [
+          239.66253662109375,
+          130.65866088867188,
+          293.14599609375,
+          240.76730346679688
+        ],
+        "distance": 10.807507514953613,
+        "lateral_position": -7.536900043487549,
+        "priority": 10,
+        "object_type": "pedestrian",
+        "urgency_score": 93.49136640286939,
+        "safety_score": 12.885860496959864
+      },
+      {
+        "class": "car",
+        "confidence": 0.8134866952896118,
+        "bbox": [
+          359.77825927734375,
+          122.15913391113281,
+          469.155517578125,
+          213.80494689941406
+        ],
+        "distance": 11.457152366638184,
+        "lateral_position": 13.284405708312988,
+        "priority": 8,
+        "object_type": "vehicle",
+        "urgency_score": 84.49061592476447,
+        "safety_score": 21.60084111090578
+      },
+      {
+        "class": "person",
+        "confidence": 0.8055052161216736,
+        "bbox": [
+          173.39263916015625,
+          130.23780822753906,
+          230.9871826171875,
+          242.0275115966797
+        ],
+        "distance": 10.644987106323242,
+        "lateral_position": -16.56704330444336,
+        "priority": 10,
+        "object_type": "pedestrian",
+        "urgency_score": 93.52712279890562,
+        "safety_score": 12.81019324557757
+      },
+      {
+        "class": "motorcycle",
+        "confidence": 0.7482852935791016,
+        "bbox": [
+          426.73126220703125,
+          219.0104522705078,
+          543.5435180664062,
+          359.01959228515625
+        ],
+        "distance": 5.199660778045654,
+        "lateral_position": 23.222444534301758,
+        "priority": 7,
+        "object_type": "vehicle",
+        "urgency_score": 0,
+        "safety_score": 100
+      },
+      {
+        "class": "motorcycle",
+        "confidence": 0.7228955626487732,
+        "bbox": [
+          336.2665100097656,
+          162.9615478515625,
+          376.6716003417969,
+          241.93890380859375
+        ],
+        "distance": 11.522290229797363,
+        "lateral_position": 5.128460884094238,
+        "priority": 7,
+        "object_type": "vehicle",
+        "urgency_score": 86.12231083989032,
+        "safety_score": 19.57773798406509
+      },
+      {
+        "class": "stop sign",
+        "confidence": 0.7167624235153198,
+        "bbox": [
+          523.534912109375,
+          53.18955993652344,
+          559.708251953125,
+          87.82502746582031
+        ],
+        "distance": 65.68411254882812,
+        "lateral_position": 31.165536880493164,
+        "priority": 10,
+        "object_type": "signal",
+        "urgency_score": 38.24857708145197,
+        "safety_score": 75.01905404830792
+      },
+      {
+        "class": "motorcycle",
+        "confidence": 0.6695033311843872,
+        "bbox": [
+          174.3990936279297,
+          167.61346435546875,
+          231.0112762451172,
+          248.169189453125
+        ],
+        "distance": 11.296527862548828,
+        "lateral_position": -16.494583129882812,
+        "priority": 7,
+        "object_type": "vehicle",
+        "urgency_score": 81.88671175625312,
+        "safety_score": 25.005530147300217
+      },
+      {
+        "class": "person",
+        "confidence": 0.5969253182411194,
+        "bbox": [
+          305.62371826171875,
+          126.49070739746094,
+          339.03570556640625,
+          217.6412811279297
+        ],
+        "distance": 13.055320739746094,
+        "lateral_position": 0.32761573791503906,
+        "priority": 10,
+        "object_type": "pedestrian",
+        "urgency_score": 92.97493671879292,
+        "safety_score": 13.984126137662212
+      },
+      {
+        "class": "person",
+        "confidence": 0.5816067457199097,
+        "bbox": [
+          331.9444580078125,
+          123.85238647460938,
+          379.34521484375,
+          216.59298706054688
+        ],
+        "distance": 12.831488609313965,
+        "lateral_position": 5.012555122375488,
+        "priority": 10,
+        "object_type": "pedestrian",
+        "urgency_score": 93.02804774785619,
+        "safety_score": 13.870805147643727
+      },
+      {
+        "class": "motorcycle",
+        "confidence": 0.5750187635421753,
+        "bbox": [
+          243.21826171875,
+          174.23492431640625,
+          290.503173828125,
+          258.4479675292969
+        ],
+        "distance": 8.644742012023926,
+        "lateral_position": -7.472711563110352,
+        "priority": 7,
+        "object_type": "vehicle",
+        "urgency_score": 93.53359642112613,
+        "safety_score": 12.796500478285601
+      },
+      {
+        "class": "person",
+        "confidence": 0.572475254535675,
+        "bbox": [
+          94.97224426269531,
+          121.45986938476562,
+          125.48997497558594,
+          189.60232543945312
+        ],
+        "distance": 17.463415145874023,
+        "lateral_position": -29.498748779296875,
+        "priority": 10,
+        "object_type": "pedestrian",
+        "urgency_score": 0,
+        "safety_score": 100
+      },
+      {
+        "class": "motorcycle",
+        "confidence": 0.5622701048851013,
+        "bbox": [
+          137.76605224609375,
+          148.2529296875,
+          172.95321655273438,
+          204.6171875
+        ],
+        "distance": 16.144983291625977,
+        "lateral_position": -23.152551651000977,
+        "priority": 7,
+        "object_type": "vehicle",
+        "urgency_score": 0,
+        "safety_score": 100
+      },
+      {
+        "class": "car",
+        "confidence": 0.5423437356948853,
+        "bbox": [
+          226.39486694335938,
+          108.38735961914062,
+          319.8553771972656,
+          184.24090576171875
+        ],
+        "distance": 13.842464447021484,
+        "lateral_position": -6.5917792320251465,
+        "priority": 8,
+        "object_type": "vehicle",
+        "urgency_score": 78.22755361422064,
+        "safety_score": 31.459341551255026
+      },
+      {
+        "class": "person",
+        "confidence": 0.4480240046977997,
+        "bbox": [
+          140.62399291992188,
+          121.17633056640625,
+          169.13296508789062,
+          152.775390625
+        ],
+        "distance": 37.65934753417969,
+        "lateral_position": -23.220212936401367,
+        "priority": 10,
+        "object_type": "pedestrian",
+        "urgency_score": 49.99999999999999,
+        "safety_score": 52.49999999999996
+      },
+      {
+        "class": "motorcycle",
+        "confidence": 0.40311336517333984,
+        "bbox": [
+          95.45578002929688,
+          144.37313842773438,
+          124.62957763671875,
+          194.76046752929688
+        ],
+        "distance": 18.060096740722656,
+        "lateral_position": -29.52524757385254,
+        "priority": 7,
+        "object_type": "vehicle",
+        "urgency_score": 0,
+        "safety_score": 100
+      },
+      {
+        "class": "person",
+        "confidence": 0.3804366886615753,
+        "bbox": [
+          159.24783325195312,
+          112.89558410644531,
+          188.69461059570312,
+          143.7314910888672
+        ],
+        "distance": 38.591373443603516,
+        "lateral_position": -20.535297393798828,
+        "priority": 10,
+        "object_type": "pedestrian",
+        "urgency_score": 49.999999999999986,
+        "safety_score": 52.499999999999986
+      },
+      {
+        "class": "motorcycle",
+        "confidence": 0.3435977101325989,
+        "bbox": [
+          306.1107177734375,
+          156.9175262451172,
+          344.5596923828125,
+          230.8765106201172
+        ],
+        "distance": 12.304117202758789,
+        "lateral_position": 0.7502632141113281,
+        "priority": 7,
+        "object_type": "vehicle",
+        "urgency_score": 83.19157766074133,
+        "safety_score": 23.253572281668564
+      },
+      {
+        "class": "person",
+        "confidence": 0.31978416442871094,
+        "bbox": [
+          139.76882934570312,
+          119.07377624511719,
+          170.25643920898438,
+          189.00962829589844
+        ],
+        "distance": 17.015592575073242,
+        "lateral_position": -23.20134925842285,
+        "priority": 10,
+        "object_type": "pedestrian",
+        "urgency_score": 0,
+        "safety_score": 100
+      }
+    ],
+    "instruction": {
+      "primary_instruction": "\u26a0\ufe0f REDUCE SPEED - MOTORCYCLE at 8.6m ahead",
+      "action": "SLOW_DOWN",
+      "urgency": "MODERATE",
+      "reason": "motorcycle at 8.6m in path",
+      "details": {
+        "center_clear": false,
+        "center_distance": 8.644742012023926
+      },
+      "turn_opportunities": {
+        "left": "\u2713 LEFT TURN SAFE - Clear path, nearest object at 11m",
+        "right": "\u2717 RIGHT TURN UNSAFE - Nearest obstacle at 5m"
+      },
+      "warnings": [],
+      "immediate_threats": []
+    },
+    "total_objects": 20
+  },
+  {
+    "image": "4236286875_05b2e96ec4_z.jpg",
+    "current_speed": 45,
+    "detections": [
+      {
+        "class": "stop sign",
+        "confidence": 0.8659798502922058,
+        "bbox": [
+          208.3992919921875,
+          158.52899169921875,
+          286.2341003417969,
+          237.481689453125
+        ],
+        "distance": 22.165170669555664,
+        "lateral_position": -10.221090316772461,
+        "priority": 10,
+        "object_type": "signal",
+        "urgency_score": 0,
+        "safety_score": 100
+      },
+      {
+        "class": "car",
+        "confidence": 0.8549016714096069,
+        "bbox": [
+          319.778564453125,
+          328.6137390136719,
+          383.5323486328125,
+          356.8136291503906
+        ],
+        "distance": 29.787351608276367,
+        "lateral_position": 4.4515485763549805,
+        "priority": 8,
+        "object_type": "vehicle",
+        "urgency_score": 75.00000000000001,
+        "safety_score": 40.000000000000014
+      },
+      {
+        "class": "car",
+        "confidence": 0.7977334856987,
+        "bbox": [
+          271.67303466796875,
+          332.85394287109375,
+          321.5552978515625,
+          356.97833251953125
+        ],
+        "distance": 34.81953430175781,
+        "lateral_position": -3.288633108139038,
+        "priority": 8,
+        "object_type": "vehicle",
+        "urgency_score": 74.99999999999996,
+        "safety_score": 39.999999999999986
+      },
+      {
+        "class": "traffic light",
+        "confidence": 0.7760845422744751,
+        "bbox": [
+          203.51394653320312,
+          59.26710510253906,
+          257.8040771484375,
+          158.83511352539062
+        ],
+        "distance": 27.418445587158203,
+        "lateral_position": -12.563576698303223,
+        "priority": 10,
+        "object_type": "signal",
+        "urgency_score": 0,
+        "safety_score": 100
+      },
+      {
+        "class": "car",
+        "confidence": 0.7016243934631348,
+        "bbox": [
+          0.352813720703125,
+          389.8512878417969,
+          60.189815521240234,
+          479.3547668457031
+        ],
+        "distance": 9.385109901428223,
+        "lateral_position": -40.743099212646484,
+        "priority": 8,
+        "object_type": "vehicle",
+        "urgency_score": 0,
+        "safety_score": 100
+      },
+      {
+        "class": "car",
+        "confidence": 0.6816698312759399,
+        "bbox": [
+          0.0,
+          335.17108154296875,
+          81.19520568847656,
+          393.42083740234375
+        ],
+        "distance": 14.420661926269531,
+        "lateral_position": -39.29096221923828,
+        "priority": 8,
+        "object_type": "vehicle",
+        "urgency_score": 0,
+        "safety_score": 100
+      },
+      {
+        "class": "car",
+        "confidence": 0.6439529657363892,
+        "bbox": [
+          392.1506652832031,
+          322.96697998046875,
+          468.1056823730469,
+          353.12237548828125
+        ],
+        "distance": 27.855712890625,
+        "lateral_position": 15.486774444580078,
+        "priority": 8,
+        "object_type": "vehicle",
+        "urgency_score": 74.99999999999999,
+        "safety_score": 40.0
+      },
+      {
+        "class": "person",
+        "confidence": 0.49014046788215637,
+        "bbox": [
+          553.5297241210938,
+          298.39910888671875,
+          581.4808959960938,
+          348.66876220703125
+        ],
+        "distance": 18.9378662109375,
+        "lateral_position": 34.8054313659668,
+        "priority": 10,
+        "object_type": "pedestrian",
+        "urgency_score": 0,
+        "safety_score": 100
+      },
+      {
+        "class": "traffic light",
+        "confidence": 0.4876275658607483,
+        "bbox": [
+          226.82711791992188,
+          274.69000244140625,
+          256.71710205078125,
+          313.11102294921875
+        ],
+        "distance": 43.72606658935547,
+        "lateral_position": -11.000797271728516,
+        "priority": 10,
+        "object_type": "signal",
+        "urgency_score": 62.864105685766084,
+        "safety_score": 51.053622873376234
+      },
+      {
+        "class": "stop sign",
+        "confidence": 0.4284106492996216,
+        "bbox": [
+          273.20330810546875,
+          151.11447143554688,
+          319.6298828125,
+          222.4576416015625
+        ],
+        "distance": 24.529327392578125,
+        "lateral_position": -3.3164162635803223,
+        "priority": 10,
+        "object_type": "signal",
+        "urgency_score": 0,
+        "safety_score": 100
+      },
+      {
+        "class": "car",
+        "confidence": 0.4151000678539276,
+        "bbox": [
+          47.54930114746094,
+          332.02386474609375,
+          104.74116516113281,
+          370.39166259765625
+        ],
+        "distance": 21.893360137939453,
+        "lateral_position": -34.292076110839844,
+        "priority": 8,
+        "object_type": "vehicle",
+        "urgency_score": 0,
+        "safety_score": 100
+      },
+      {
+        "class": "bus",
+        "confidence": 0.37056049704551697,
+        "bbox": [
+          44.42863464355469,
+          312.5347900390625,
+          173.7882843017578,
+          361.0865478515625
+        ],
+        "distance": 36.9090690612793,
+        "lateral_position": -29.6566219329834,
+        "priority": 8,
+        "object_type": "vehicle",
+        "urgency_score": 49.99999999999999,
+        "safety_score": 52.31810679501971
+      }
+    ],
+    "instruction": {
+      "primary_instruction": "\ud83d\uded1 PREPARE TO STOP - STOP SIGN at 22.2m",
+      "action": "PREPARE_STOP",
+      "urgency": "HIGH",
+      "reason": "stop sign at 22.2m",
+      "details": {
+        "center_clear": false,
+        "center_distance": 22.165170669555664
+      },
+      "turn_opportunities": {
+        "left": "\u2713 LEFT TURN SAFE - Clear path, nearest object at 9m",
+        "right": "\u2713 RIGHT TURN SAFE - Clear path, nearest object at 19m"
+      },
+      "warnings": [],
+      "immediate_threats": []
+    },
+    "total_objects": 12
+  },
+  {
+    "image": "6022871891_a601326786_z.jpg",
+    "current_speed": 15,
+    "detections": [
+      {
+        "class": "person",
+        "confidence": 0.8932458758354187,
+        "bbox": [
+          374.8759765625,
+          311.61676025390625,
+          445.34375,
+          429.23626708984375
+        ],
+        "distance": 8.09389591217041,
+        "lateral_position": 12.671699523925781,
+        "priority": 10,
+        "object_type": "pedestrian",
+        "urgency_score": 93.44266336232191,
+        "safety_score": 12.989020755735888
+      },
+      {
+        "class": "bus",
+        "confidence": 0.869491696357727,
+        "bbox": [
+          261.8450927734375,
+          287.8457946777344,
+          349.094970703125,
+          354.7621154785156
+        ],
+        "distance": 26.779714584350586,
+        "lateral_position": -2.043276786804199,
+        "priority": 8,
+        "object_type": "vehicle",
+        "urgency_score": 75.0,
+        "safety_score": 40.00000000000001
+      },
+      {
+        "class": "person",
+        "confidence": 0.8233374953269958,
+        "bbox": [
+          536.2377319335938,
+          318.60687255859375,
+          591.6978149414062,
+          430.0
+        ],
+        "distance": 8.546308517456055,
+        "lateral_position": 34.30796813964844,
+        "priority": 10,
+        "object_type": "pedestrian",
+        "urgency_score": 93.8250662689684,
+        "safety_score": 12.182511403167691
+      },
+      {
+        "class": "car",
+        "confidence": 0.8225893378257751,
+        "bbox": [
+          171.85708618164062,
+          318.1356201171875,
+          229.20016479492188,
+          352.6107177734375
+        ],
+        "distance": 24.365413665771484,
+        "lateral_position": -16.800662994384766,
+        "priority": 8,
+        "object_type": "vehicle",
+        "urgency_score": 75.00000000000004,
+        "safety_score": 40.00000000000002
+      },
+      {
+        "class": "person",
+        "confidence": 0.7794309258460999,
+        "bbox": [
+          67.83029174804688,
+          318.305419921875,
+          81.43927001953125,
+          358.157470703125
+        ],
+        "distance": 23.888357162475586,
+        "lateral_position": -34.50448226928711,
+        "priority": 10,
+        "object_type": "pedestrian",
+        "urgency_score": 0,
+        "safety_score": 100
+      },
+      {
+        "class": "person",
+        "confidence": 0.7177958488464355,
+        "bbox": [
+          424.471923828125,
+          308.53863525390625,
+          465.27923583984375,
+          421.59246826171875
+        ],
+        "distance": 8.420767784118652,
+        "lateral_position": 17.56062889099121,
+        "priority": 10,
+        "object_type": "pedestrian",
+        "urgency_score": 92.71136082500702,
+        "safety_score": 14.547412981493476
+      },
+      {
+        "class": "person",
+        "confidence": 0.6941370964050293,
+        "bbox": [
+          507.35089111328125,
+          319.46820068359375,
+          542.0222778320312,
+          418.02703857421875
+        ],
+        "distance": 9.659205436706543,
+        "lateral_position": 28.78404998779297,
+        "priority": 10,
+        "object_type": "pedestrian",
+        "urgency_score": 92.74712643678163,
+        "safety_score": 14.943676687759984
+      },
+      {
+        "class": "person",
+        "confidence": 0.6622744798660278,
+        "bbox": [
+          617.308349609375,
+          319.1895751953125,
+          639.83837890625,
+          430.0
+        ],
+        "distance": 8.591249465942383,
+        "lateral_position": 43.39312744140625,
+        "priority": 10,
+        "object_type": "pedestrian",
+        "urgency_score": 0,
+        "safety_score": 100
+      },
+      {
+        "class": "person",
+        "confidence": 0.6286037564277649,
+        "bbox": [
+          45.772918701171875,
+          313.04498291015625,
+          59.489601135253906,
+          349.4591064453125
+        ],
+        "distance": 26.143701553344727,
+        "lateral_position": -37.59872817993164,
+        "priority": 10,
+        "object_type": "pedestrian",
+        "urgency_score": 0,
+        "safety_score": 100
+      },
+      {
+        "class": "person",
+        "confidence": 0.6193479895591736,
+        "bbox": [
+          477.15557861328125,
+          321.5589599609375,
+          498.148681640625,
+          379.09063720703125
+        ],
+        "distance": 16.547407150268555,
+        "lateral_position": 23.576080322265625,
+        "priority": 10,
+        "object_type": "pedestrian",
+        "urgency_score": 0,
+        "safety_score": 100
+      },
+      {
+        "class": "person",
+        "confidence": 0.6168195605278015,
+        "bbox": [
+          81.3622817993164,
+          310.69732666015625,
+          98.30670928955078,
+          344.55999755859375
+        ],
+        "distance": 28.113554000854492,
+        "lateral_position": -32.36702346801758,
+        "priority": 10,
+        "object_type": "pedestrian",
+        "urgency_score": 0,
+        "safety_score": 100
+      },
+      {
+        "class": "traffic light",
+        "confidence": 0.6081566214561462,
+        "bbox": [
+          49.04925537109375,
+          68.40739440917969,
+          139.1129150390625,
+          221.81202697753906
+        ],
+        "distance": 13.689287185668945,
+        "lateral_position": -31.769847869873047,
+        "priority": 10,
+        "object_type": "signal",
+        "urgency_score": 0,
+        "safety_score": 100
+      },
+      {
+        "class": "traffic light",
+        "confidence": 0.5558892488479614,
+        "bbox": [
+          149.72848510742188,
+          115.59715270996094,
+          223.95523071289062,
+          224.3383331298828
+        ],
+        "distance": 19.31191062927246,
+        "lateral_position": -18.72536277770996,
+        "priority": 10,
+        "object_type": "signal",
+        "urgency_score": 0,
+        "safety_score": 100
+      },
+      {
+        "class": "person",
+        "confidence": 0.4823880195617676,
+        "bbox": [
+          460.8831481933594,
+          323.71343994140625,
+          482.7791442871094,
+          406.28387451171875
+        ],
+        "distance": 11.52955150604248,
+        "lateral_position": 21.351255416870117,
+        "priority": 10,
+        "object_type": "pedestrian",
+        "urgency_score": 0,
+        "safety_score": 100
+      },
+      {
+        "class": "motorcycle",
+        "confidence": 0.38989123702049255,
+        "bbox": [
+          125.30953979492188,
+          323.85333251953125,
+          151.0679931640625,
+          354.90411376953125
+        ],
+        "distance": 23.445465087890625,
+        "lateral_position": -25.56720542907715,
+        "priority": 7,
+        "object_type": "vehicle",
+        "urgency_score": 0,
+        "safety_score": 100
+      },
+      {
+        "class": "person",
+        "confidence": 0.3349251449108124,
+        "bbox": [
+          604.3990478515625,
+          317.62994384765625,
+          620.8587646484375,
+          362.36419677734375
+        ],
+        "distance": 21.281232833862305,
+        "lateral_position": 41.15093994140625,
+        "priority": 10,
+        "object_type": "pedestrian",
+        "urgency_score": 0,
+        "safety_score": 100
+      }
+    ],
+    "instruction": {
+      "primary_instruction": "\u26a0\ufe0f SLOW DOWN - PERSON crossing at 8.1m",
+      "action": "YIELD",
+      "urgency": "HIGH",
+      "reason": "person crossing at 8.1m",
+      "details": {
+        "center_clear": false,
+        "center_distance": 8.09389591217041
+      },
+      "turn_opportunities": {
+        "left": "\u2717 LEFT TURN UNSAFE - Nearest obstacle at 14m",
+        "right": "\u2713 RIGHT TURN SAFE - Clear path, nearest object at 8m"
+      },
+      "warnings": [],
+      "immediate_threats": []
+    },
+    "total_objects": 16
+  },
+  {
+    "image": "7345527746_6b25ae7ac1_z.jpg",
+    "current_speed": 40,
+    "detections": [
+      {
+        "class": "truck",
+        "confidence": 0.8926107883453369,
+        "bbox": [
+          138.43243408203125,
+          78.4827880859375,
+          578.7173461914062,
+          442.3111572265625
+        ],
+        "distance": 6.733944416046143,
+        "lateral_position": 5.424593925476074,
+        "priority": 8,
+        "object_type": "vehicle",
+        "urgency_score": 93.33647798742138,
+        "safety_score": 13.214285714285717
+      },
+      {
+        "class": "bus",
+        "confidence": 0.7965791821479797,
+        "bbox": [
+          572.2158203125,
+          0.02020263671875,
+          639.51708984375,
+          452.5653381347656
+        ],
+        "distance": 5.0,
+        "lateral_position": 40.19997024536133,
+        "priority": 8,
+        "object_type": "vehicle",
+        "urgency_score": 0,
+        "safety_score": 100
+      },
+      {
+        "class": "person",
+        "confidence": 0.7796299457550049,
+        "bbox": [
+          15.0565185546875,
+          237.26116943359375,
+          63.08354187011719,
+          338.5467529296875
+        ],
+        "distance": 11.748957633972168,
+        "lateral_position": -39.505775451660156,
+        "priority": 10,
+        "object_type": "pedestrian",
+        "urgency_score": 93.27983321351857,
+        "safety_score": 13.334630778790864
+      },
+      {
+        "class": "car",
+        "confidence": 0.6771011352539062,
+        "bbox": [
+          17.466033935546875,
+          218.98214721679688,
+          82.51539611816406,
+          270.0198669433594
+        ],
+        "distance": 20.57301902770996,
+        "lateral_position": -37.970054626464844,
+        "priority": 8,
+        "object_type": "vehicle",
+        "urgency_score": 0,
+        "safety_score": 100
+      },
+      {
+        "class": "person",
+        "confidence": 0.45794039964675903,
+        "bbox": [
+          0.035137176513671875,
+          240.8029022216797,
+          26.122180938720703,
+          339.98040771484375
+        ],
+        "distance": 9.59895133972168,
+        "lateral_position": -43.16081237792969,
+        "priority": 10,
+        "object_type": "pedestrian",
+        "urgency_score": 0,
+        "safety_score": 100
+      },
+      {
+        "class": "bus",
+        "confidence": 0.4540906846523285,
+        "bbox": [
+          84.24559020996094,
+          140.2841796875,
+          169.8495330810547,
+          282.02685546875
+        ],
+        "distance": 15.803285598754883,
+        "lateral_position": -27.13393783569336,
+        "priority": 8,
+        "object_type": "vehicle",
+        "urgency_score": 0,
+        "safety_score": 100
+      },
+      {
+        "class": "person",
+        "confidence": 0.3830580413341522,
+        "bbox": [
+          0.0,
+          240.6154327392578,
+          16.23444366455078,
+          340.44244384765625
+        ],
+        "distance": 9.536497116088867,
+        "lateral_position": -43.858516693115234,
+        "priority": 10,
+        "object_type": "pedestrian",
+        "urgency_score": 0,
+        "safety_score": 100
+      },
+      {
+        "class": "traffic light",
+        "confidence": 0.355118989944458,
+        "bbox": [
+          69.257080078125,
+          112.21690368652344,
+          100.60653686523438,
+          176.6311492919922
+        ],
+        "distance": 32.60148239135742,
+        "lateral_position": -33.05646514892578,
+        "priority": 10,
+        "object_type": "signal",
+        "urgency_score": 49.999999999999986,
+        "safety_score": 52.50000000000005
+      }
+    ],
+    "instruction": {
+      "primary_instruction": "\u26a0\ufe0f STOP - TRUCK at 6.7m ahead",
+      "action": "EMERGENCY_STOP",
+      "urgency": "CRITICAL",
+      "reason": "truck at 6.7m (stop threshold: 10m)",
+      "details": {
+        "center_clear": false,
+        "obstacle_type": "truck",
+        "obstacle_distance": 6.733944416046143,
+        "stop_threshold": 10
+      },
+      "turn_opportunities": {
+        "left": "\u2717 LEFT blocked",
+        "right": "\u2717 RIGHT blocked"
+      },
+      "warnings": [],
+      "immediate_threats": [
+        {
+          "class": "truck",
+          "confidence": 0.8926107883453369,
+          "bbox": [
+            138.43243408203125,
+            78.4827880859375,
+            578.7173461914062,
+            442.3111572265625
+          ],
+          "distance": 6.733944416046143,
+          "lateral_position": 5.424593925476074,
+          "priority": 8,
+          "object_type": "vehicle",
+          "urgency_score": 93.33647798742138,
+          "safety_score": 13.214285714285717
+        }
+      ]
+    },
+    "total_objects": 8
+  },
+  {
+    "image": "8965896602_c68fe611bd_z.jpg",
+    "current_speed": 30,
+    "detections": [
+      {
+        "class": "bus",
+        "confidence": 0.9448967576026917,
+        "bbox": [
+          243.74554443359375,
+          130.9229736328125,
+          401.78009033203125,
+          251.55966186523438
+        ],
+        "distance": 18.56814956665039,
+        "lateral_position": 0.3885211944580078,
+        "priority": 8,
+        "object_type": "vehicle",
+        "urgency_score": 75.0,
+        "safety_score": 40.00000000000001
+      },
+      {
+        "class": "person",
+        "confidence": 0.8058475852012634,
+        "bbox": [
+          83.28117370605469,
+          230.16253662109375,
+          109.47587585449219,
+          309.44989013671875
+        ],
+        "distance": 12.006958961486816,
+        "lateral_position": -31.4467716217041,
+        "priority": 10,
+        "object_type": "pedestrian",
+        "urgency_score": 93.22061832645413,
+        "safety_score": 13.460555170332583
+      },
+      {
+        "class": "bus",
+        "confidence": 0.7981216311454773,
+        "bbox": [
+          194.1499481201172,
+          146.69985961914062,
+          248.0713653564453,
+          210.46047973632812
+        ],
+        "distance": 35.13140106201172,
+        "lateral_position": -13.9063138961792,
+        "priority": 8,
+        "object_type": "vehicle",
+        "urgency_score": 64.03353712913625,
+        "safety_score": 50.96646287086383
+      },
+      {
+        "class": "car",
+        "confidence": 0.7425059676170349,
+        "bbox": [
+          98.57269287109375,
+          183.47625732421875,
+          148.84573364257812,
+          224.9310302734375
+        ],
+        "distance": 25.328807830810547,
+        "lateral_position": -27.603391647338867,
+        "priority": 8,
+        "object_type": "vehicle",
+        "urgency_score": 0,
+        "safety_score": 100
+      },
+      {
+        "class": "car",
+        "confidence": 0.7069699764251709,
+        "bbox": [
+          150.87298583984375,
+          192.48519897460938,
+          223.64666748046875,
+          246.9090576171875
+        ],
+        "distance": 15.434407234191895,
+        "lateral_position": -18.666587829589844,
+        "priority": 8,
+        "object_type": "vehicle",
+        "urgency_score": 75.00000000000004,
+        "safety_score": 40.00000000000002
+      },
+      {
+        "class": "bus",
+        "confidence": 0.6684141159057617,
+        "bbox": [
+          119.33868408203125,
+          144.92605590820312,
+          194.18069458007812,
+          187.87591552734375
+        ],
+        "distance": 52.153839111328125,
+        "lateral_position": -22.955669403076172,
+        "priority": 8,
+        "object_type": "vehicle",
+        "urgency_score": 50.0,
+        "safety_score": 64.99999999999999
+      },
+      {
+        "class": "traffic light",
+        "confidence": 0.662685751914978,
+        "bbox": [
+          248.60031127929688,
+          33.53948974609375,
+          261.1543884277344,
+          66.98033142089844
+        ],
+        "distance": 81.6366958618164,
+        "lateral_position": -9.157873153686523,
+        "priority": 10,
+        "object_type": "signal",
+        "urgency_score": 0,
+        "safety_score": 100
+      },
+      {
+        "class": "person",
+        "confidence": 0.6624181866645813,
+        "bbox": [
+          30.379384994506836,
+          228.01388549804688,
+          61.649269104003906,
+          319.0234680175781
+        ],
+        "distance": 10.460436820983887,
+        "lateral_position": -38.529232025146484,
+        "priority": 10,
+        "object_type": "pedestrian",
+        "urgency_score": 0,
+        "safety_score": 100
+      },
+      {
+        "class": "car",
+        "confidence": 0.3770459294319153,
+        "bbox": [
+          82.00393676757812,
+          168.19430541992188,
+          117.51896667480469,
+          211.75970458984375
+        ],
+        "distance": 24.101696014404297,
+        "lateral_position": -30.971046447753906,
+        "priority": 8,
+        "object_type": "vehicle",
+        "urgency_score": 0,
+        "safety_score": 100
+      },
+      {
+        "class": "person",
+        "confidence": 0.3455358147621155,
+        "bbox": [
+          65.54940795898438,
+          177.78985595703125,
+          75.93585205078125,
+          198.24786376953125
+        ],
+        "distance": 58.167930603027344,
+        "lateral_position": -35.05181884765625,
+        "priority": 10,
+        "object_type": "pedestrian",
+        "urgency_score": 49.99999999999999,
+        "safety_score": 52.50000000000001
+      },
+      {
+        "class": "person",
+        "confidence": 0.3007758855819702,
+        "bbox": [
+          598.5628662109375,
+          189.27207946777344,
+          611.8665771484375,
+          223.75599670410156
+        ],
+        "distance": 34.50883865356445,
+        "lateral_position": 40.10832214355469,
+        "priority": 10,
+        "object_type": "pedestrian",
+        "urgency_score": 50.0,
+        "safety_score": 52.49999999999999
+      }
+    ],
+    "instruction": {
+      "primary_instruction": "\u26a0\ufe0f REDUCE SPEED - BUS at 18.6m ahead",
+      "action": "SLOW_DOWN",
+      "urgency": "MODERATE",
+      "reason": "bus at 18.6m in path",
+      "details": {
+        "center_clear": false,
+        "center_distance": 18.56814956665039
+      },
+      "turn_opportunities": {
+        "left": "\u2713 LEFT TURN SAFE - Clear path, nearest object at 10m",
+        "right": "\u2713 RIGHT TURN SAFE - Clear path, nearest object at 35m"
+      },
+      "warnings": [],
+      "immediate_threats": []
+    },
+    "total_objects": 11
+  }
+]
